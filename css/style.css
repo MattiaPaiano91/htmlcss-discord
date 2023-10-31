@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generali */
+
+.b-border {
+  border: 1px dashed black;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  min-width: 40px;
+  min-height: 25px;
+  line-height: 25px;
+  border-radius: 25%;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+/* fine generali */
+
+/* header */
+.header-box {
+  background-color: #255ee9;
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 70%;
+  background-color: #255ee9;
+  height: 60%;
+}
+
+.header-icons {
+  width: 25%;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.header-central {
+  width: 50%;
+}
+
+.login {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.header-central > ul {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.header-central > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+.header-button > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-button {
+  background-color: white;
+  text-decoration: none;
+  border-color: white;
+}
+
+/* fine header */
+
+.blue-box {
+  width: 100%;
+  background-color: blue;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-box {
+  width: 50%;
+  background-color: pink;
+  min-height: 300px;
+}
+
+/* inizio main */
+
+.white-background {
+  width: 100%;
+}
+
+.container-2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.cadetblu-box {
+  width: 75%;
+  background-color: cadetblue;
+  min-height: 70%;
+}
+
+.light-pink-box {
+  width: 25%;
+  background-color: lightpink;
+  min-height: 70%;
+}
+
+.gray-background {
+  width: 100%;
+  background-color: grey;
+}
+
+.green-box-container {
+  width: 100%;
+  background-color: grey;
+  height: 800px;
+}
+
+.green-box {
+  width: 70%;
+  background-color: green;
+  height: 70%;
+}
+
+.footer-1 {
+  background-color: black;
+}
+
+.container-3 {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  margin: 10px 0px 20px 0px;
+}
+
+.main-box {
+  background-color: pink;
+  height: 400px;
+  width: calc(100% / 3);
+}
+
+.box {
+  background-color: cadetblue;
+  width: calc(100% / 6);
+  height: 400px;
+  border: 1px dashed white;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  border-top: 1px solid white;
+  height: 80px;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  background-color: aqua;
+  height: 50px;
+}
