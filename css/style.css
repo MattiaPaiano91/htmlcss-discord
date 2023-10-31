@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* generali */
 
 .b-border {
@@ -28,7 +29,9 @@
 a{
   text-decoration: none;
 }
-
+p{
+  margin-top: 30px;
+}
 /* fine generali */
 
 /* header */
@@ -146,6 +149,12 @@ li {
 
 .white-background {
   width: 100%;
+  min-height: 700px;
+}
+
+.light-pink-box{
+  margin-left: 50px;
+  text-align: left;
 }
 
 .container-2 {
@@ -155,21 +164,24 @@ li {
   width: 70%;
 }
 
-.cadetblu-box {
-  width: 75%;
-  background-color: cadetblue;
-  min-height: 70%;
-}
 
-.light-pink-box {
-  width: 25%;
-  background-color: lightpink;
+
+.cadetblu-box{
+  width: 50%; 
+}
+.gray-background > .container-2{
+  margin-right: 200px;
+}
+.gray-background > .container-2:first-child{
+  max-width: 25%;
   min-height: 70%;
+  margin-left: 50px;
 }
 
 .gray-background {
   width: 100%;
-  background-color: grey;
+  background-color: #F6F6F6;
+  height: 700px;
 }
 
 .green-box-container {
