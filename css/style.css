@@ -24,6 +24,13 @@ p {
   margin: 30px 0px;
 }
 
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 2em;
+}
 /* fine generali */
 
 /* generali per sezioni */
@@ -202,7 +209,7 @@ p {
 
 /* iniziofooter */
 
-  /* footer-top */
+  
 .box > ul:first-child {
   color: #7289da;
 }
@@ -222,7 +229,7 @@ p {
 }
 
 .container-5{
-  border-bottom:1px solid white;
+  border-bottom:1px solid #7289da;
   min-height: 600px;
 }
 
@@ -234,6 +241,32 @@ p {
 
 .main-box > h3 {
   color: #7289da;
+  padding-bottom: 10px;
+}
+
+.main-box > .ita{
+  height: 20px;
+  width: 20px;
+  color: white;
+  display: inline-block;
+}
+.main-box > span{
+  color: white;
+  padding-left: 5px;
+}
+.main-box > div > img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.social-box{
+  color: white;
+  padding-top: 10px;
+}
+
+.social-box > i{
+  padding-right: 20px;
 }
 
 .box {
@@ -244,7 +277,7 @@ p {
 .container-6{
   width: 70%;
   margin: auto;
-  padding: 5px 0px 50px 0px;
+  padding: 10px 0px 50px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -257,4 +290,3 @@ p {
 .container-6 > .button{
   background-color: #7289da;
 }
- 
