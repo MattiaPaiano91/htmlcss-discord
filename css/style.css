@@ -24,15 +24,42 @@
   border-radius: 25px;
   padding: 10px 10px;
    text-align: center;
+   display: inline-block;
 }
 
 a{
   text-decoration: none;
 }
 p{
-  margin-top: 30px;
+  margin: 30px 0px;
 }
+
+
 /* fine generali */
+
+/* generali per sezioni */
+.section-1, .section-2, .section-3, .section-4 {
+  width: 100%;
+  min-height: 700px;
+  
+}
+.container-1,.container-2,.container-3 {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.container-1 > .img-box{
+  display: inline-block;
+}
+.info-box{
+  display: inline-block;
+  width: 50%;
+}
+/* fine generali per sezioni */
+
 
 /* header */
 .header-box {
@@ -88,7 +115,6 @@ li {
 
 .header-button {
   background-color: white;
-  text-decoration: none;
   border-color: white;
 }
 
@@ -147,41 +173,41 @@ li {
 
 /* inizio main */
 
-.white-background {
-  width: 100%;
-  min-height: 700px;
-}
 
-.light-pink-box{
-  margin-left: 50px;
-  text-align: left;
-}
-
-.container-2 {
-  height: 400px;
-  display: flex;
-  align-items: center;
-  width: 70%;
-}
-
-
-
-.cadetblu-box{
-  width: 50%; 
-}
-.gray-background > .container-2{
-  margin-right: 200px;
-}
-.gray-background > .container-2:first-child{
-  max-width: 25%;
-  min-height: 70%;
-  margin-left: 50px;
-}
-
-.gray-background {
-  width: 100%;
+.section-2{
   background-color: #F6F6F6;
   height: 700px;
+}
+
+.section-4{
+  background-color: #F6F6F6;
+}
+
+.container-4{
+  display: block;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+ 
+.container-4 :nth-child(4){
+  background-image: url(../img/stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  line-height: 50px;
+  
+}
+
+.container-4 > div > h3{
+  margin-bottom: 50px;
+}
+
+.container-4 :nth-child(5){
+  background-color: #7289DA;
+  color: white;
+  margin: 40px 0px;
 }
 
 .green-box-container {
@@ -196,16 +222,15 @@ li {
   height: 70%;
 }
 
+
+/* fine main */
+/* iniziofooter */
+
+
 .footer-1 {
   background-color: black;
 }
 
-.container-3 {
-  width: 70%;
-  height: 400px;
-  display: flex;
-  margin: 10px 0px 20px 0px;
-}
 
 .main-box {
   background-color: pink;
@@ -229,7 +254,7 @@ li {
   height: 80px;
 }
 
-.container-4 {
+.container-5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
